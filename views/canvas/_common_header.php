@@ -32,17 +32,11 @@
         });
         FB.getLoginStatus(function (response) {
             if (response.status === 'connected') {
-                document.getElementById('fb_login_status').value = 'connected';
-                $('#continue_facebook').hide();
-                $('#continue_user_profile').show();
+                fb_connect();
             } else if (response.status === 'not_authorized') {
-                document.getElementById('fb_login_status').value = 'disconnected'
-                $('#continue_facebook').show();
-                $('#continue_user_profile').hide();
+                fb_disconnect();
             } else {
-                document.getElementById('fb_login_status').value = 'disconnected';
-                $('#continue_facebook').show();
-                $('#continue_user_profile').hide();
+                fb_disconnect();
             }
         });
     };
@@ -61,13 +55,7 @@
     function login() {
         FB.login(function (response) {
             if (response.status === 'connected') {
-                $('#continue_facebook').hide();
-                $('#continue_user_profile').show();
-                
-                FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id,picture.width(150).height(150)'}, function (response) {
-                    document.getElementById('fb_profile_pic').innerHTML = "<img src='" + response.picture.data.url + "'>";
-                    document.getElementById('fb_login_status').value = 'connected';
-                });
+                fb_connect();
             }
         }, {scope: 'email'});
     }
@@ -77,6 +65,22 @@
         FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id,picture.width(150).height(150)'}, function (response) {
             document.getElementById('status').innerHTML = "<img src='" + response.picture.data.url + "'>";
         });
+    }
+    
+    function fb_connect(){
+        document.getElementById('fb_login_status').value = 'connected';
+        $('#continue_facebook').hide();
+        $('#continue_user_profile').show();
+        FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id,picture.width(150).height(150)'}, function (response) {
+            document.getElementById('fb_profile_pic').innerHTML = "<img src='" + response.picture.data.url + "'>";
+            document.getElementById('fb_login_status').value = 'connected';
+        });
+    }
+    
+    function fb_disconnect(){
+        document.getElementById('fb_login_status').value = 'not_authorized';
+        $('#continue_facebook').show();
+        $('#continue_user_profile').hide();
     }
     
 </script>
