@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="7">
+        <file>
+            <url>protected/modules/admin/controllers/OutwardshipmentController.php</url>
+            <bookmark id="5">
+                <name/>
+                <line>153</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>protected/modules/admin/views/shipmentdispatchdetail/admin.php</url>
+            <bookmark id="6">
+                <name/>
+                <line>66</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>protected/modules/admin/views/userRoles/view.php</url>
+            <bookmark id="4">
+                <name/>
+                <line>44</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/userRoles/create.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/models/Shipmenttraking.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/components/AdminCoreController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/customer/_form.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/DefaultController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipment/view.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/models/Shipment.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/systemRoleBasePermission/update.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/outwardshipment/outword.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/userRoles/update.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/models/Outwordshipment.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/customer/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/client/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/css/admin/custom_style.css</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/components/CoreCButtonColumn.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/inwordshipment/inword.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/models/Rates.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/userRoles/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/inwordshipment/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipment/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/js/admin/custom_script.js</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/layouts/left_menu.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipmentdispatchdetail/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/layouts/main.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/InwordshipmentController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/default/login.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/api/controllers/DispatchersController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/OutwardshipmentController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/pickuprequest/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/ShipmentController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/components/UtilityHtml.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipmenttracking/_form.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/models/Branchcenters.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/userRoles/_form.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/models/AdminLoginForm.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/ShipmentdispatchdetailController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/pickuprequest/updatestatusall.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/outwardshipment/admin.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/systemRoleBasePermission/view.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/PickuprequestController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/api/controllers/CustomersController.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipmenttracking/view.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/shipment/_form.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/views/userRoles/view.php</file>
+            <file>file:/home/php6/SVN/quoadmin/protected/modules/admin/controllers/ShipmenttrackingController.php</file>
+        </group>
+    </open-files>
+</project-private>

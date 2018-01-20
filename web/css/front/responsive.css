@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-width: 359px){
+.search_cls input[type="text"]{width:100%; margin:20px 0px;}
+}
+
+@media only screen and (max-width: 767px){
+.mobile_view{display:block;}
+.desk_view{display:none;}
+
+.responsive_banner{background:url(../../images/front/banner.jpg) 0 0px no-repeat; background-size:100% 100%;}
+
+.logo{width:100%; text-align:center; top:0px; position: static; margin:20px 0 10px 0px;}
+.top_col{text-align:center; width:100%; float:left;}
+.phone{width:155px; margin:5px auto; float:none;}
+.mail{width:120px; margin:15px auto; float:none;}
+.social_tab{width:100px; margin:5px auto; float:none;}
+
+.navbar-default{background:#FFF; border-radius:10px;}
+.navbar-default .navbar-collapse{padding:0px;}
+.navbar-header button{background:#282b8f; opacity:1;}
+.navbar ul li{margin:0px; width:100%; border-bottom:#eaeaea 1px solid;}
+.navbar ul li:last-child{border-bottom:none;}
+.navbar ul li a{font-size:16px;}
+.navbar ul li:hover a{color:#ec121c !important;}
+
+.banner h1{font-size:4vw; top:16vw; padding:0px;}
+
+.search_cls{width:90%; float:left; margin:0px 5%;}
+.search_cls label{font-size:26px; line-height:22px;}
+.search_cls input[type="text"]{width:68%; margin:20px 0px;}
+
+
+.first_row .icon_left, .first_row .icon_right{width:100%; text-align:center; margin-top:10px;}
+.first_row h2, .first_row p{text-align:center;}
+
+.second_row h3.align_right{text-align:center; font-size:34px;}
+.second_row{margin:80px 0px;}
+.content_border{margin-bottom:20px;}
+
+.porfolio_row .portfolio_col{margin:20px auto; width:100%; border-bottom:#8081a6 1px solid; display:inline-block; padding-bottom:30px;}
+.col-lg-3:last-child .portfolio_col{border:none; padding-bottom:0px;}
+.porfolio_row img{float:right;}
+.porfolio_row h5{font-size:30px;}
+.porfolio_row h5 span{font-size:14px;}
+
+.product_row{margin:50px 0px;}
+.product_row h6{font-size:24px;}
+
+footer ul{width:100%; float:left;}
+footer ul li:after{content:none;}
+footer ul li{width:100%; text-align:center; margin:10px 0px;}
+footer ul li a{text-align:center; width:100%;}
+
+.copyright_txt{text-align:center; margin-bottom:10px;}
+.footer_link{text-align:center;}
+
+.cloned{background:#FFF !important; box-shadow:#FFF 0px 0px 0px !important; position:static !important}
+
+.team_box{margin:20px 0px; float:left;}
+.centered{padding:80px 10px;}
+.centered input[type="text"]{width:66%; height:60px;}
+.centered .btn-default{height:60px; line-height:60px;}
+.tracking_row{position:static;}
+
+.tracking_cls p strong{display:block;}
+
+.site-enquiry .form-group{width:100%; float:left;}
+
+.contact_form .form-group{width:100%; margin-bottom:20px;}
+.our_team{margin-top:0px;}
+
+footer ul li:last-child::after{content:none;}
+.connect-with-wedib{margin-top:50px;}
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+.mail{margin:0px 30px;}
+.navbar{margin-bottom:0px !important;}
+.navbar ul li{margin:0px;}
+.navbar ul li a{font-size:16px; padding:0px 12px;}
+.navbar ul li:last-child a{padding:0px;}
+
+.banner h1{font-size:5vw; top:28%;}
+
+.centered{margin-bottom:40px;}
+
+.first_row .row{margin:20px 0px;}
+
+.second_row{padding:50px 0px; border-top:#e7ebef 2px solid; margin:15px 0; background:#f9f9f9;}
+.second_row h3.align_right{font-size:40px;}
+.porfolio_row .portfolio_col{margin:30px 0px;}
+.porfolio_row h5{font-size:5vw;}
+.porfolio_row h5 span{font-size:2vw;}
+
+.tracking_row{padding:25px 0px;}
+.tracking_cls{padding:0px 50px; box-sizing:border-box;}
+.cloned{background:#f1f1f1 !important; box-shadow:#333 3px 0px 5px !important; padding:25px 0px;}
+	
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+.navbar ul li{margin:0px 10px;}
+.navbar .navbar-collapse{margin:0px; padding:0px;}
+.banner h1{font-size:5vw; top:30%;}
+.search_cls label{ font-size:34px;}
+.search_cls input[type="text"]{width:400px;}
+.centered{margin-bottom:70px;}
+
+.second_row{margin:80px 0px;}
+.second_row h3{font-size:26px;}
+.second_row h4{font-size:22px;}
+
+.porfolio_row h5{font-size:2vw;}
+.porfolio_row h5 span{font-size:1vw;}
+.porfolio_row img{height:65px;}
+
+/*.porfolio_row .col-lg-3:nth-child(1) li img{width:30px;}
+.porfolio_row .col-lg-3:nth-child(2) li img{width:35px;}
+.porfolio_row .col-lg-3:nth-child(3) li img{width:55px;}
+.porfolio_row .col-lg-3:nth-child(4) li img{width:40px;}*/
+
+.product_row figure img{margin:0px;}
+.cloned{background:#f1f1f1 !important; box-shadow:#333 3px 0px 5px !important; padding:15px 0px;}
+
+}

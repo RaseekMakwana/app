@@ -1,0 +1,1 @@
+<img src="http://localhost/app/uploads/posts/original/rgqvXwyQ8Kf-PKs0u95uW14dZo2YwxxO.jpg" style="width: 1200px;">

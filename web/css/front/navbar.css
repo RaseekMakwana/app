@@ -1,0 +1,13 @@
+body {
+  padding:0px; margin:0px;
+}
+
+.navbar {
+  float:right;
+  width:100%;
+}
+
+.navbar ul{}
+.navbar ul li{margin:0px 20px;}
+.navbar ul li:last-child{margin-right:0px;}
+.navbar ul li a{font-size:18px; color:#474747; font-family:'MuseoSans', Arial, Helvetica, sans-serif; font-weight:300;}

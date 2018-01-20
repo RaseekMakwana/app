@@ -1,0 +1,35 @@
+body{ background: #f2f2f2; font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif }
+
+.thumbnail{ border: 1px solid #ddd;  border-bottom: 5px solid #ccc; }
+.thumbnail a{color: #a94442;}
+.thumbnail a:hover img{ opacity:0.8; }
+
+a.navbar-brand{ font-size: 25px !important; font-weight: 500 !important; color: #fff !important; }
+.navbar-default{ background: #393f4d !important; }
+.navbar-inverse{ background: #393f4d !important; box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 2px 2px 0px rgba(0,0,0,0.08); }
+.nav.navbar-nav li a{ color: white; }
+.nav.navbar-nav li a:hovers{ color: white; }
+.navbar{ margin-bottom: 0px !important; border: 0px !important; border-radius: 0px !important; }
+.nav.navbar-nav.navbar-right li a:hover{ color: white; }
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{ color: white }
+
+.page-heading
+{
+    position: relative;
+    padding: 30px 15px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 2px 2px 0px rgba(0,0,0,0.08);
+    text-shadow:1px 1px 1px #373737;
+    background-color: #414857;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.footer{ padding: 20px; background: #414857; color: white;  }
+.text-muted{ color: white; }
+
+#app_header_block img{ width: 100%; }
+#app_header_block p{ margin-top: 10px;}
+#app_header_block p a{ color:white;}
+/*Inner Page*/
