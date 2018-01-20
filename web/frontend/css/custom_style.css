@@ -60,5 +60,21 @@ a.navbar-brand{ font-size: 25px !important; font-weight: 500 !important; color: 
     position: relative;
     top: 6px;
 }
+
+#continue_facebook i {
+    font-size: 27px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    line-height: 22px;
+}
+button#continue_facebook {
+    font-size: 16px;
+    background: #286090;
+    border: #286090;
+    border-radius: 5px;
+    padding: 6px 8px;
+    color: white;
+}
     
 /*Inner Page*/

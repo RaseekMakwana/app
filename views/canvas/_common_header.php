@@ -7,7 +7,7 @@
 
     <div class="thumbnail" style="border-bottom: 1px solid #ccc;">
         <p style="text-align: center">
-            <button onclick="login()" id="continue_facebook" class="btn btn-primary" style="display: none">Continue with Facebook</button>
+            <button onclick="login()" id="continue_facebook" class="btn btn-primary" ><i class='fa fa-facebook-official'></i> Continue with Facebook</button>
         <div id="continue_user_profile" style="display: none">
             <div class="text"><i class='fa fa-facebook-official'></i> Continue with <span id="fb_profile_name"></span></div>
              
