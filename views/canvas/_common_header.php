@@ -19,7 +19,8 @@
 
 <script>
     $(document).ready(function(){
-        
+        $('#continue_facebook').hide();
+        $('#continue_user_profile').hide();
     });
     
     // initialize and setup facebook js sdk
