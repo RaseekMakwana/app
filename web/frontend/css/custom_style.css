@@ -37,7 +37,7 @@ a.navbar-brand{ font-size: 25px !important; font-weight: 500 !important; color: 
     float: left;
     margin-left: 10px;
     color: white;
-    margin-right: 10px;
+    margin-right: 16px;
     line-height: 41px;
 }
 #continue_user_profile {
@@ -54,5 +54,11 @@ a.navbar-brand{ font-size: 25px !important; font-weight: 500 !important; color: 
     float: left;
 }
 #fb_profile_pic img{ width: 41px; }
+#continue_user_profile .text i {
+    font-size: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
     
 /*Inner Page*/
