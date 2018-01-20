@@ -9,8 +9,8 @@
         <p style="text-align: center">
             <button onclick="login()" id="continue_facebook" class="btn btn-primary" style="display: none">Continue with Facebook</button>
         <div id="continue_user_profile" class="btn btn-primary" style="display: none">
-            <div class="text"><i class='fa fa-facebook-official'></i> Continue with </div>
-            <div id="fb_profile_name"></div> 
+            <div class="text"><i class='fa fa-facebook-official'></i> Continue with <span id="fb_profile_name"></span></div>
+             
             <div id="fb_profile_pic"></div>
         </div>
         <input type="hidden" id="fb_login_status" value="">
@@ -19,9 +19,25 @@
 </div>
 
 <style>
-    #continue_user_profile .text { float: left; }
-    #fb_profile_name{ float: left; }
-    #fb_profile_pic{ float: left; }
+    #continue_user_profile .text {
+        float: left;
+        margin-left: 10px;
+        color: white;
+        margin-right: 10px;
+    }
+    #continue_user_profile {
+        background: #4267b2;
+        display: block;
+        display: inline-table;
+        border-radius: 5px 5px 5px 5px;
+        overflow: hidden;
+        /* padding: 4px; */
+        line-height: 38px;
+        font-size: 16px;
+    }
+    #fb_profile_pic {
+        float: left;
+    }
 </style>
 
 <script>
