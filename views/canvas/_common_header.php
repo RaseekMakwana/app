@@ -8,7 +8,10 @@
     <div class="thumbnail" style="border-bottom: 1px solid #ccc;">
         <p style="text-align: center">
             <button onclick="login()" id="continue_facebook" class="btn btn-primary" style="display: none">Continue with Facebook</button>
-        <div id="continue_user_profile" class="btn btn-primary" style="display: none">Continue with <div id="fb_profile_name"></div> <div id="fb_profile_pic"></div>
+        <div id="continue_user_profile" class="btn btn-primary" style="display: none">
+            <div class=""><i class='fa fa-facebook'></i> Continue with </div>
+            <div id="fb_profile_name"></div> 
+            <div id="fb_profile_pic"></div>
         </div>
         <input type="hidden" id="fb_login_status" value="">
         </p>
