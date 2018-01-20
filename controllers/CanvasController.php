@@ -55,7 +55,7 @@ class CanvasController extends \yii\web\Controller {
     }
     
     public function actionLogin_status(){
-        $session = \Yii::$app->session;
+        $session = Yii::$app->session;
         $session['login_status'] = $_POST['status'];
     }
 

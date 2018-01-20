@@ -33,15 +33,15 @@
             if (response.status === 'connected') {
                 document.getElementById('fb_login_status').value = 'connected';
                 $('#continue_facebook').hide();
-               $('#continue_user_profile').show();
+                $('#continue_user_profile').show();
             } else if (response.status === 'not_authorized') {
                 document.getElementById('fb_login_status').value = 'disconnected'
                 $('#continue_facebook').show();
-               $('#continue_user_profile').hide();
+                $('#continue_user_profile').hide();
             } else {
                 document.getElementById('fb_login_status').value = 'disconnected';
                 $('#continue_facebook').show();
-               $('#continue_user_profile').hide();
+                $('#continue_user_profile').hide();
             }
         });
     };
@@ -77,7 +77,7 @@
             type: 'post',
             data: {status: status},
             success: function (response) {
-
+                
             }
         });
 
