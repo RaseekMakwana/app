@@ -38,6 +38,7 @@ a.navbar-brand{ font-size: 25px !important; font-weight: 500 !important; color: 
     margin-left: 10px;
     color: white;
     margin-right: 10px;
+    line-height: 41px;
 }
 #continue_user_profile {
     background: #4267b2;
