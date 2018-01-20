@@ -1,7 +1,4 @@
-<?php
-$session = Yii::$app->session;
-p($session['login_status'],0);
-?>
+
 <div class="row">
     <div class="col-sm-8 col-lg-8 col-md-8">
         <div class="row">

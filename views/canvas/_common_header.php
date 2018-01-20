@@ -61,27 +61,12 @@
     function login() {
         FB.login(function (response) {
             if (response.status === 'connected') {
-                ajax_login_status('connected');
-
                 FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id,picture.width(150).height(150)'}, function (response) {
                     document.getElementById('status').innerHTML = "<img src='" + response.picture.data.url + "'>";
                     document.getElementById('fb_login_status').value = 'connected';
                 });
             }
         }, {scope: 'email'});
-    }
-
-    function ajax_login_status(status) {
-        var ajaxUrl = '<?php echo Yii::$app->urlManager->createUrl(['fb_login_generate']); ?>';
-        $.ajax({
-            url: ajaxUrl,
-            type: 'post',
-            data: {status: status},
-            success: function (response) {
-                
-            }
-        });
-
     }
 
     // getting basic user info

@@ -53,10 +53,10 @@ class CanvasController extends \yii\web\Controller {
         file_put_contents(TEMP_PICTURE_ABS_SAVE  . $file_name, $data);
         echo json_encode($share_model->id);
     }
-    
-    public function actionLogin_status(){
-        $session = Yii::$app->session;
-        $session['login_status'] = $_POST['status'];
-    }
+//    
+//    public function actionLogin_status(){
+//        $session = Yii::$app->session;
+//        $session['login_status'] = $_POST['status'];
+//    }
 
 }
