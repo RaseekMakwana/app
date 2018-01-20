@@ -19,16 +19,7 @@
 
 <script>
     $(document).ready(function(){
-        alert('fadf');
-       var fb_status = $('#fb_login_status').val();
-       if(fb_status == 'connected'){
-           $('#continue_facebook').hide();
-           $('#continue_user_profile').show();
-       } else {
-           $('#continue_facebook').show();
-           $('#continue_user_profile').hide();
-       }
-       
+        
     });
     
     // initialize and setup facebook js sdk
@@ -41,10 +32,16 @@
         FB.getLoginStatus(function (response) {
             if (response.status === 'connected') {
                 document.getElementById('fb_login_status').value = 'connected';
+                $('#continue_facebook').hide();
+               $('#continue_user_profile').show();
             } else if (response.status === 'not_authorized') {
                 document.getElementById('fb_login_status').value = 'disconnected'
+                $('#continue_facebook').show();
+               $('#continue_user_profile').hide();
             } else {
                 document.getElementById('fb_login_status').value = 'disconnected';
+                $('#continue_facebook').show();
+               $('#continue_user_profile').hide();
             }
         });
     };
