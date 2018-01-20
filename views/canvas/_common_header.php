@@ -24,7 +24,6 @@
     #fb_profile_pic{ float: left; }
 </style>
 
-
 <script>
     $(document).ready(function(){
         
