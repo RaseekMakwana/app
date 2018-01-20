@@ -10,8 +10,7 @@
             <button onclick="login()" id="continue_facebook" class="btn btn-primary">Continue with Facebook</button>
             <div id="continue_user_profile" class="btn btn-primary">Continue with <div id="fb_profile_name"></div> <div id="fb_profile_pic"></div>
             </div>
-        <input type="hidden" id="fb_login_id" value="">
-            
+            <input type="hidden" id="fb_login_status" value="">
         </p>
     </div>
 </div>
@@ -28,11 +27,11 @@
 		    });
 		    FB.getLoginStatus(function(response) {
 		    	if (response.status === 'connected') {
-		    		document.getElementById('status').innerHTML = 'We are connected.';
+		    		document.getElementById('fb_login_status').value = 'connected';
 		    	} else if (response.status === 'not_authorized') {
-		    		document.getElementById('status').innerHTML = 'We are not logged in.'
+		    		document.getElementById('fb_login_status').value = 'disconnected'
 		    	} else {
-		    		document.getElementById('status').innerHTML = 'You are not logged into Facebook.';
+		    		document.getElementById('fb_login_status').value = 'disconnected';
 		    	}
 		    });
 		};
@@ -49,6 +48,11 @@
 			FB.login(function(response) {
                             if (response.status === 'connected') {
                                 ajax_login_status('connected');
+                                
+                                FB.api('/me', 'GET', {fields: 'first_name,last_name,name,id,picture.width(150).height(150)'}, function(response) {
+                                        document.getElementById('status').innerHTML = "<img src='" + response.picture.data.url + "'>";
+                                        document.getElementById('fb_login_status').value = 'connected';
+                                });
                             } 
 			}, {scope: 'email'});
 		}
