@@ -19,6 +19,7 @@
 
 <script>
     $(document).ready(function(){
+        alert('fadf');
        var fb_status = $('#fb_login_status').val();
        if(fb_status == 'connected'){
            $('#continue_facebook').hide();
