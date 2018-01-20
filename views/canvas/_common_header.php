@@ -59,6 +59,7 @@
         FB.login(function (response) {
             if (response.status === 'connected') {
                 fb_connect();
+                location.reload();
             }
         }, {scope: 'email'});
     }
