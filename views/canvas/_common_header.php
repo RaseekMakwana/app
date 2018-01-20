@@ -18,27 +18,6 @@
     </div>
 </div>
 
-<style>
-    #continue_user_profile .text {
-        float: left;
-        margin-left: 10px;
-        color: white;
-        margin-right: 10px;
-    }
-    #continue_user_profile {
-        background: #4267b2;
-        display: block;
-        display: inline-table;
-        border-radius: 5px 5px 5px 5px;
-        overflow: hidden;
-        /* padding: 4px; */
-        line-height: 38px;
-        font-size: 16px;
-    }
-    #fb_profile_pic {
-        float: left;
-    }
-</style>
 
 <script>
     $(document).ready(function(){
