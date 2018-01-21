@@ -13,6 +13,7 @@
              
             <div id="fb_profile_pic"></div>
         </div>
+         
         <input type="hidden" id="fb_login_status" value="">
         </div>
     </div>

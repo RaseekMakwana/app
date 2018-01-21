@@ -31,9 +31,10 @@
             allowTaint: true,
             taintTest: false,
             onrendered: function (canvas) {
+                alert('fadsfa');
                 //document.getElementById('someBox').appendChild(canv);
                 document.body.appendChild(canvas);
-                $('canvas').attr('id', 'canvas');
+                    $('canvas').attr('id', 'canvas');
                 $('canvas').attr('class', 'canvas_blk');
                 var canvas = document.getElementById("canvas");
                 //window.location.href = canvas.toDataURL('image/jpeg');
